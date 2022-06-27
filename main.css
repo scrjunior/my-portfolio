@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    padding-bottom: 1000px;
 }
 
 .apresentation {
@@ -8,12 +9,71 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 150px;
+}
+
+.apresentation p {
+    margin: 0;
+}
+
+.name-container {
+    margin-bottom: 20px;
+    font-size: 20px;
 }
 
 h1 {
     font-size: 50px;
+    margin: 0;
+}
+
+.apresentation-cont {
+    margin-top: 30px;
 }
 
 .text-apre {
     font-size: 18px;
+}
+
+.button-container {
+    margin-top: 45px;
+}
+
+.projects-button {
+    border: none;
+    background-color: #000;
+    color: #fff;
+    padding: 15px 40px 15px 40px;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-right: 40px;
+}
+
+.resume-button {
+    border: 1px solid #000;
+    color: rgb(0, 0, 0);
+    background: none;
+    padding: 15px 40px 15px 40px;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+
+/*About Section*/
+
+.about-section {
+    margin-top: 200px;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.title-about {
+    font-size: 35px;
+    text-align: center;
+}
+
+.about-flex {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
