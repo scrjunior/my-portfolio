@@ -2,6 +2,9 @@ body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
     padding-bottom: 1000px;
+    /*background-color: #1b1b1b;
+    color: #ffffff;*/
+    background-color: #fffffff4;
 }
 
 .apresentation {
@@ -41,6 +44,7 @@ h1 {
 }
 
 .projects-button {
+    outline: solid 0px;
     border: none;
     background-color: #000;
     color: #fff;
@@ -49,27 +53,42 @@ h1 {
     font-weight: bolder;
     font-size: 20px;
     margin-right: 40px;
+    transition: color 0.20s, background 0.20s;
+}
+
+.projects-button:hover {
+    background: none;
+    outline-width: 1px;
+    color: rgb(0, 0, 0);
 }
 
 .resume-button {
-    border: 1px solid #000;
+    border: none;
+    outline: solid 1px;
     color: rgb(0, 0, 0);
     background: none;
     padding: 15px 40px 15px 40px;
     border-radius: 5px;
     font-weight: bolder;
     font-size: 20px;
+    transition: background-color 0.20s, color 0.20s;
+}
+
+.resume-button:hover {
+    background-color: #000;
+    color: #fff;
 }
 
 
 /*About Section*/
 
 .about-section {
-    margin-top: 200px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 5rem;
-    padding-right: 5rem;
+    margin-top: 250px;
+    padding-top: 50px;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
 }
 
 .title-about {
@@ -79,13 +98,18 @@ h1 {
 
 .about-flex {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr 2fr;
     column-gap: 50px;
     justify-content: center;
+    align-items: flex-start;
     margin-left: 50px;
     margin-right: 50px;
     font-size: 18px;
     line-height: 27px;
+}
+
+.about-paragraphs p {
+    margin-top: 0;
 }
 
 .img {
@@ -93,5 +117,19 @@ h1 {
     height: 200px;
     border-radius: 200px;
     object-fit: cover;
-    box-shadow: 1px 1px 50px rgba(0, 0, 0, 0.104);
+    /*box-shadow: 1px 1px 50px rgba(0, 0, 0, 0.104);*/
+}
+
+.img-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.find-me {
+    display: flex;
+}
+
+.find-me img {
+    width: 30px;
 }
