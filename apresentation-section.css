@@ -1,0 +1,71 @@
+.apresentation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.apresentation p {
+    margin: 0;
+}
+
+.name-container {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+.apresentation-cont {
+    margin-top: 30px;
+}
+
+.text-apre {
+    font-size: 18px;
+}
+
+.button-container {
+    margin-top: 45px;
+}
+
+.projects-button {
+    outline: solid 0px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    padding: 15px 40px 15px 40px;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-right: 40px;
+    transition: color 0.20s, background 0.20s;
+}
+
+.projects-button:hover {
+    background: none;
+    outline-width: 1px;
+    color: rgb(0, 0, 0);
+}
+
+.resume-button {
+    border: none;
+    outline: solid 1px;
+    color: rgb(0, 0, 0);
+    background: none;
+    padding: 15px 40px 15px 40px;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 20px;
+    transition: background-color 0.20s, color 0.20s;
+}
+
+.resume-button:hover {
+    background-color: #000;
+    color: #fff;
+}
